@@ -13,7 +13,7 @@ Space : O(n)"~0~0~1
 2~What is the average time complexity of array access?~O(1)~0~0~1
 3~What is the worst time complexity of array access?~O(1)~0~0~1
 4~What is the average time complexity of array search?~O(n)~0~0~1
-5~What is the worst time complexity of array access?~O(n)~0~0~1
+5~What is the worst time complexity of array search?~O(n)~0~0~1
 6~What is the average time complexity of array insertion?~O(n)~0~0~1
 7~What is the worst time complexity of array insertion?~O(n)~0~0~1
 8~What is the average time complexity of array deletion?~O(n)~0~0~1
