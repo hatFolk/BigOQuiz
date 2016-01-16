@@ -10,21 +10,29 @@ class Question:
         self.correct = correct
         self.battingAvg = battingAvg # Assume people are Pro
 
-    def ask(self):
+    def ask(self, keepTrack):
         right = False
         if self.asked != 0:
             print("Your Average for this question is {:.2%}\nCorrect {} : Asked {}".format
                     (self.battingAvg, self.correct, self.asked))
         self.asked += 1
-        print(self.question)
-        raw_input("[Hit Enter to Reveal Answer] > ")
-        print(self.answer)
-        if raw_input("Enter a word starting with y if you got it right. > ").lower()[0] == 'y':
-            self.correct += 1
-            right = True
-        else:
-            print("Better luck next time")
-        self.updateAverage()
+	print("\n\n" + str(self.question))
+	opt = raw_input("[Hit Enter to Reveal Answer] > ")
+        if len(opt) == 0:
+            print("\n" + str(self.answer) + "\n\n")
+        elif opt.lower()[0] == 'q':
+            quit()
+
+        if keepTrack:
+            opt = raw_input("Enter a word starting with y if you got it right. > ")
+            while len(opt) == 0:
+                opt = raw_input("Please enter something. ")
+            if opt.lower()[0] == 'y':
+                self.correct += 1
+                right = True
+            else:
+                print("Better luck next time")
+            self.updateAverage()
         return right
 
     def updateAverage(self):
@@ -50,26 +58,26 @@ class Quiz:
         questionsAsked = 0
         questionsCorrect = 0
         if SORTBYAVERAGE:
-            random.shuffle(self.questionList)
-        else:
             self.questionList.sort(key = lambda x: x.battingAvg)
+        else:
+            random.shuffle(self.questionList)
         i = 0
+        keepTrack = False
+        scoreAnswer = raw_input("Do you want to keep track of your score throughout the game? Type y if yes. ")
+        if scoreAnswer[0].lower() == 'y':
+            keepTrack = True
         while i < self.questionList:
             questionsAsked += 1
-            questionsCorrect += 1 if self.questionList[i].ask() else 0
-            print("Your score so far is {:.2%}".format(questionsCorrect/questionsAsked))
-            opt = "-1"
-            while opt[0].lower() not in ['c', 'q', 'a']:
-                opt = raw_input("[c]ontinue? [q]uit? [a]sk again?\nPlease enter the appropriate letter > ")
-            if opt[0].lower() == 'c':
-                i += 1
-            elif opt[0].lower() == 'q':
-                break
-            elif opt[0].lower() == 'a':
-                pass
-        print("Your final average {:.2%}\nCorrect {} : Answered {}".format
+            self.questionList[i].ask(keepTrack)
+            if keepTrack:
+                if self.questionList[i].ask(keepTrack):
+                    questionsCorrect += 1
+                print("Your score so far is {:.2%}".format(questionsCorrect / questionsAsked))
+            i += 1
+        if keepTrack == True:
+            print("Your final average {:.2%}\nCorrect {} : Answered {}".format
                 (questionsCorrect/questionsAsked, questionsCorrect, questionsAsked))
-
+        
         def export(self, filename):
             self.questionList.sort(key = lambda x : x.qID)
             with open(filename, 'w+') as csvfile:
@@ -117,7 +125,7 @@ def main():
 [w]orst?
 [r]andom? > """)
             if p_opt[0].lower() == "w":
-                quiz.start(False)
+                quiz.start(True)
             elif p_opt[0].lower() == "r":
                 quiz.start()
         elif opt[0].lower() == "l":
