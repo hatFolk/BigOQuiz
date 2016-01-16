@@ -1,0 +1,240 @@
+ID~Question~Answer~Correct #~Asked #~Average Correctness
+1~"What are the stats of an array?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(1)
+Search : O(n)
+Insertion : O(n)
+Deletion : O(n)
+Space : O(n)"~0~0~1
+2~What is the average time complexity of array access?~O(1)~0~0~1
+3~What is the worst time complexity of array access?~O(1)~0~0~1
+4~What is the average time complexity of array search?~O(n)~0~0~1
+5~What is the worst time complexity of array access?~O(n)~0~0~1
+6~What is the average time complexity of array insertion?~O(n)~0~0~1
+7~What is the worst time complexity of array insertion?~O(n)~0~0~1
+8~What is the average time complexity of array deletion?~O(n)~0~0~1
+9~What is the worst time complexity of array deletion?~O(n)~0~0~1
+10~What is the worst space complexity of an array?~O(n)~0~0~1
+11~Are an array's average and worst time complexity stats different or same?~Same~0~0~1
+12~"What are the stats of a stack?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    deletion,
+and its worst space complexity?"~"Access : O(n)
+Search : O(n)
+Insertion : O(1)
+Deletion : O(1)
+Space : O(n)"~0~0~1
+13~What is the average time complexity of stack access?~O(n)~0~0~1
+14~What is the worst time complexity of stack access?~O(n)~0~0~1
+15~What is the average time complexity of stack search?~O(n)~0~0~1
+16~What is the worst time complexity of stack search?~O(n)~0~0~1
+17~What is the average time complexity of stack insertion?~O(1)~0~0~1
+18~What is the worst time complexity of stack insertion?~O(1)~0~0~1
+19~What is the average time complexity of stack deletion?~O(1)~0~0~1
+20~What is the worst time complexity of stack deletion?~O(1)~0~0~1
+21~What is the worst space complexity of stack?~O(n)~0~0~1
+22~Are a stack's average and worst time complexity stats different or same?~Same~0~0~1
+23~"What are the stats of a singly-linked list?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(n),
+Search : O(n),
+Insertion : O(1),
+Deletion : O(1),
+Space : O(n)"~0~0~1
+24~What is the average time complexity of singly-linked list access?~O(n)~0~0~1
+26~What is the worst time complexity of singly-linked list access?~O(n)~0~0~1
+27~What is the average time complexity of singly-linked list search?~O(n)~0~0~1
+28~What is the worst time complexity of singly-linked list search?~O(n)~0~0~1
+29~What is the average time complexity of singly-linked list insertion?~O(1)~0~0~1
+30~What is the worst time complexity of singly-linked list insertion?~O(1)~0~0~1
+31~What is the average time complexity of singly-linked list deletion?~O(1)~0~0~1
+32~What is the worst time complexity of singly-linked list deletion?~O(1)~0~0~1
+33~What is the worst space complexity of singly-linked list?~O(n)~0~0~1
+34~Are a singly-linked list's average and worst time complexity stats different or same?~Same~0~0~1
+35~"What are the stats of a doubly-linked list?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(n),
+Search : O(n),
+Insertion : O(1),
+Deletion : O(1),
+Space : O(n)"~0~0~1
+36~What is the average time complexity of doubly-linked list access?~O(n)~0~0~1
+37~What is the worst time complexity of doubly-linked list access?~O(n)~0~0~1
+38~What is the average time complexity of doubly-linked list search?~O(n)~0~0~1
+39~What is the worst time complexity of doubly-linked list search?~O(n)~0~0~1
+40~What is the average time complexity of doubly-linked list insertion?~O(1)~0~0~1
+41~What is the worst time complexity of doubly-linked list insertion?~O(1)~0~0~1
+42~What is the average time complexity of doubly-linked list deletion?~O(1)~0~0~1
+43~What is the worst time complexity of doubly-linked list deletion?~O(1)~0~0~1
+44~What is the worst space complexity of doubly-linked list?~O(n)~0~0~1
+45~Are a doubly-linked list's average and worst time complexity stats different or same?~Same~0~0~1
+46~"What are the stats of a skip list?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : Average O(log n), Worst O(n)
+Search : Average O(log n), Worst O(n)
+Insertion : Average O(log n), Worst O(n)
+Deletion : Average O(log n), Worst O(n)
+Space: O(n log n)"~0~0~1
+47~What is the average time complexity of skip list access?~O(log n)~0~0~1
+48~What is the average time complexity of skip list search?~O(log n)~0~0~1
+49~What is the average time complexity of skip list insertion?~O(log n)~0~0~1
+50~What is the average time complexity of skip list deletion?~O(log n)~0~0~1
+51~What is the worst time complexity of skip list access?~O(log n)~0~0~1
+52~What is the worst time complexity of skip list search?~O(log n)~0~0~1
+52~What is the worst time complexity of skip list insertion?~O(log n)~0~0~1
+53~What is the worst time complexity of skip list deletion?~O(log n)~0~0~1
+54~Are a skip list's average and worst time complexity stats different or same?~Different~0~0~1
+55~What is the worst space complexity of skip list?~O(n log n)~0~0~1
+46~"What are the stats of a binary search tree?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : Average O(log n), Worst O(n)
+Search : Average O(log n), Worst O(n)
+Insertion : Average O(log n), Worst O(n)
+Deletion : Average O(log n), Worst O(n)
+Space: O(n)"~0~0~1
+47~What is the average time complexity of binary search tree access?~O(log n)~0~0~1
+48~What is the average time complexity of binary search tree search?~O(log n)~0~0~1
+49~What is the average time complexity of binary search tree insertion?~O(log n)~0~0~1
+50~What is the average time complexity of binary search tree deletion?~O(log n)~0~0~1
+51~What is the worst time complexity of binary search tree access?~O(n)~0~0~1
+52~What is the worst time complexity of binary search tree search?~O(n)~0~0~1
+52~What is the worst time complexity of binary search tree insertion?~O(n)~0~0~1
+53~What is the worst time complexity of binary search tree deletion?~O(n)~0~0~1
+54~Are a binary search tree's average and worst time complexity stats different or same?~Different~0~0~1
+55~What is the worst space complexity of binary search tree?~O(n)~0~0~1
+56~"What are the stats of a cartesian tree?
+That is, what is its average and worst time complexities in
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Search : Average O(log n), Worst O(n)
+Insertion : Average O(log n), Worst O(n)
+Deletion : Average O(log n), Worst O(n)
+Space: O(n)"~0~0~1
+57~What is the average time complexity of cartesian tree search?~O(log n)~0~0~1
+58~What is the average time complexity of cartesian tree insertion?~O(log n)~0~0~1
+59~What is the average time complexity of cartesian tree deletion?~O(log n)~0~0~1
+61~What is the worst time complexity of cartesian tree search?~O(n)~0~0~1
+62~What is the worst time complexity of cartesian tree insertion?~O(n)~0~0~1
+63~What is the worst time complexity of cartesian tree deletion?~O(n)~0~0~1
+64~Are a cartesian tree's average and worst time complexity stats different or same?~Different~0~0~1
+65~What is the worst space complexity of cartesian tree?~O(n)~0~0~1
+66~"What are the stats of a splay tree?
+That is, what is its average and worst time complexities in
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Search : Average O(log n), Worst O(log n)
+Insertion : Average O(log n), Worst O(log n)
+Deletion : Average O(log n), Worst O(log n)
+Space: O(n)"~0~0~1
+67~What is the average time complexity of splay tree search?~O(log n)~0~0~1
+68~What is the average time complexity of splay tree insertion?~O(log n)~0~0~1
+69~What is the average time complexity of splay tree deletion?~O(log n)~0~0~1
+70~What is the worst time complexity of splay tree search?~O(log n)~0~0~1
+71~What is the worst time complexity of splay tree insertion?~O(log n)~0~0~1
+72~What is the worst time complexity of splay tree deletion?~O(log n)~0~0~1
+73~Are a splay tree's average and worst time complexity stats different or same?~Same~0~0~1
+74~What is the worst space complexity of splay tree?~O(n)~0~0~1
+75~"What are the stats of a b-tree?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(log n)
+Search : O(log n)
+Insertion : O(log n)
+Deletion : O(log n)
+Space : O(n)"~0~0~1
+76~What is the average time complexity of b-tree access?~O(log n)~0~0~1
+77~What is the average time complexity of b-tree search?~O(log n)~0~0~1
+78~What is the average time complexity of b-tree insertion?~O(log n)~0~0~1
+79~What is the average time complexity of b-tree deletion?~O(log n)~0~0~1
+80~What is the worst time complexity of b-tree access?~O(log n)~0~0~1
+81~What is the worst time complexity of b-tree search?~O(log n)~0~0~1
+82~What is the worst time complexity of b-tree insertion?~O(log n)~0~0~1
+83~What is the worst time complexity of b-tree deletion?~O(log n)~0~0~1
+84~What is the worst space complexity of b-tree?~O(n)~0~0~1
+85~Are a b-tree's average and worst time complexity stats different or same?~Same~0~0~1
+86~"What are the stats of a red-black tree?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(log n)
+Search : O(log n)
+Insertion : O(log n)
+Deletion : O(log n)
+Space : O(n)"~0~0~1
+87~What is the average time complexity of red-black tree access?~O(log n)~0~0~1
+88~What is the average time complexity of red-black tree search?~O(log n)~0~0~1
+89~What is the average time complexity of red-black tree insertion?~O(log n)~0~0~1
+90~What is the average time complexity of red-black tree deletion?~O(log n)~0~0~1
+91~What is the worst time complexity of red-black tree access?~O(log n)~0~0~1
+92~What is the worst time complexity of red-black tree search?~O(log n)~0~0~1
+93~What is the worst time complexity of red-black tree insertion?~O(log n)~0~0~1
+94~What is the worst time complexity of red-black tree deletion?~O(log n)~0~0~1
+95~What is the worst space complexity of red-black tree?~O(n)~0~0~1
+96~Are a red-black tree's average and worst time complexity stats different or same?~Same~0~0~1
+97~"What are the stats of a avl tree?
+That is, what is its average and worst time complexities in
+    access,
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Access : O(log n)
+Search : O(log n)
+Insertion : O(log n)
+Deletion : O(log n)
+Space : O(n)"~0~0~1
+98~What is the average time complexity of avl tree access?~O(log n)~0~0~1
+99~What is the average time complexity of avl tree search?~O(log n)~0~0~1
+100~What is the average time complexity of avl tree insertion?~O(log n)~0~0~1
+101~What is the average time complexity of avl tree deletion?~O(log n)~0~0~1
+102~What is the worst time complexity of avl tree access?~O(log n)~0~0~1
+103~What is the worst time complexity of avl tree search?~O(log n)~0~0~1
+104~What is the worst time complexity of avl tree insertion?~O(log n)~0~0~1
+105~What is the worst time complexity of avl tree deletion?~O(log n)~0~0~1
+106~What is the worst space complexity of avl tree?~O(n)~0~0~1
+107~Are a avl tree's average and worst time complexity stats different or same?~Same~0~0~1
+108~"What are the stats of a hash table?
+That is, what is its average and worst time complexities in
+    search,
+    insertion,
+    deletion,
+and its worst space complexity?"~"Search : Average O(1), Worst O(n)
+Insertion : Average O(1), Worst O(n)
+Deletion : Average O(1), Worst O(n)
+Space : O(n)"~0~0~1
+109~What is the average time complexity of hash table search?~O(1)~0~0~1
+110~What is the average time complexity of hash table insertion?~O(1)~0~0~1
+111~What is the average time complexity of hash table deletion?~O(1)~0~0~1
+112~What is the worst space complexity of hash table?~O(n)~0~0~1
+113~What is the worst time complexity of hash table search?~O(n)~0~0~1
+114~What is the worst time complexity of hash table insertion?~O(n)~0~0~1
+115~What is the worst time complexity of hash table deletion?~O(n)~0~0~1
+116~Are a hash table's average and worst time complexity stats different or same?~different~0~0~1

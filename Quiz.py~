@@ -1,0 +1,22 @@
+import random
+
+class Question:
+    def __init__(self, question, answer):
+        self.question = question
+        self.answer = answer
+        self.asked = 0
+        self.correct = 0
+
+    def ask(self):
+        self.asked += 1
+        print(self.question)
+        input("[Hit Enter to Reveal Answer] > ")
+        if input("Enter a word starting with y if you got it right. > ").lower()[0] == 'y':
+            self.correct += 1
+        else:
+            print("Better luck next time")
+
+class Quiz:
+    def __init__(self, questionList):
+        for i in questionList.
+        
